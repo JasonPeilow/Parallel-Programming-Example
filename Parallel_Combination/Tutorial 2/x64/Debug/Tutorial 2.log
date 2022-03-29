@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Tutorial 2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Assessment Item 1.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+  Tutorial 2.vcxproj -> C:\Users\Jason Laptop\source\repos\OpenCL-Tutorials-master - Copy\OpenCL-Tutorials-master\x64\Debug\PEI07088957 Assessment Item One\PEI07088957 Assessment Item One.exe
+  ..\images\test.pgm
+  ..\images\test_large.pgm
+  2 File(s) copied
+  kernels\my_kernels.cl
+  1 File(s) copied
+  ..\images\test.pgm
+  ..\images\test_large.pgm
+  2 File(s) copied
