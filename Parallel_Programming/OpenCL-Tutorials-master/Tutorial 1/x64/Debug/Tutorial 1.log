@@ -1,0 +1,24 @@
+﻿  Tutorial 1.cpp
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(80): error C2374: 'A': redefinition; multiple initialization
+  c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(70): note: see declaration of 'A'
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(81): error C2374: 'B': redefinition; multiple initialization
+  c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(71): note: see declaration of 'B'
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(94): error C2088: '[': illegal for class
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(94): error C2664: 'cl_int cl::CommandQueue::enqueueWriteBuffer(const cl::Buffer &,cl_bool,size_t,size_t,const void *,const std::vector<cl::Event,std::allocator<_Ty>> *,cl::Event *) const': cannot convert argument 6 from 'cl::Event *' to 'const std::vector<cl::Event,std::allocator<_Ty>> *'
+          with
+          [
+              _Ty=cl::Event
+          ]
+  c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(94): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(95): error C2088: '[': illegal for class
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(95): error C2660: 'cl::CommandQueue::enqueueWriteBuffer': function does not take 4 arguments
+  c:\intel\opencl\sdk\include\cl\cl.hpp(5710): note: see declaration of 'cl::CommandQueue::enqueueWriteBuffer'
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(111): error C3071: operator '%' can only be applied to an instance of a ref class or a value-type
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(111): error C2664: 'cl_int cl::CommandQueue::enqueueNDRangeKernel(const cl::Kernel &,const cl::NDRange &,const cl::NDRange &,const cl::NDRange &,const std::vector<cl::Event,std::allocator<_Ty>> *,cl::Event *) const': cannot convert argument 6 from 'cl::Event' to 'cl::Event *'
+          with
+          [
+              _Ty=cl::Event
+          ]
+  c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(111): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(123): error C2088: '<<': illegal for class
+c:\users\student\documents\opencl-tutorials-master\tutorial 1\tutorial 1.cpp(124): error C2088: '<<': illegal for class
